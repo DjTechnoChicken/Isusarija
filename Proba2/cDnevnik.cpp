@@ -2,7 +2,7 @@
 
 //Definira prozor cDnevnik koji se poziva i poziva tu funkciju
 
-cDnevnik::cDnevnik() : wxFrame(nullptr, wxID_ANY, "Sranje", wxPoint(710, 150), wxSize(600, 600)) {
+cDnevnik::cDnevnik() : wxFrame(nullptr, wxID_ANY, "LegitDnevnik", wxPoint(710, 150), wxSize(600, 600)) {
 	m_txt3 = new wxTextCtrl(this, wxID_ANY, "", wxPoint(600 / 2 - 300 / 2, 20), wxSize(300, 30));
 	m_txt4 = new wxTextCtrl(this, wxID_ANY, "", wxPoint(600 / 2 - 300 / 2, 60), wxSize(300, 30));
 	m_list2 = new wxListBox(this, wxID_ANY, wxPoint(600 / 2 - 300 / 2, 350), wxSize(300, 100));

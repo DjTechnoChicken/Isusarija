@@ -24,11 +24,11 @@ int wMain = 600;
 int hMain = 600;
 
 
-cMain::cMain() : wxFrame(nullptr, wxID_ANY, "Sranje", wxPoint(710, 150), wxSize(wMain, hMain)) {
+cMain::cMain() : wxFrame(nullptr, wxID_ANY, "Isusarija", wxPoint(710, 150), wxSize(wMain, hMain)) {
 	m_txt1 = new wxTextCtrl(this, wxID_ANY, "", wxPoint(wMain / 2 - 300 / 2, 20), wxSize(300, 30));
 	m_txt2 = new wxTextCtrl(this, wxID_ANY, "", wxPoint(wMain / 2 - 300 / 2, 60), wxSize(300, 30));
 	m_list1 = new wxListBox(this, wxID_ANY, wxPoint(wMain / 2 - 300 / 2, 350), wxSize(300, 100));
-	m_btn1 = new wxButton(this, 10001, "RAK", wxPoint(225, 500), wxSize(150, 50));
+	m_btn1 = new wxButton(this, 10001, "Log in", wxPoint(225, 500), wxSize(150, 50));
 
 
 }
